@@ -19,7 +19,7 @@ package com.java.threads;
 
 class  Counter{
 	int count=0;
-	public synchronized void increament() {
+	public synchronized void increament() { // synchronized means at a time only one thread wiil accsess this method 
 		count++;
 	}
 }
@@ -51,7 +51,7 @@ public class Race {
 		t2.start();
 		
 		t1.join();
-		t2.join();
+		t2.join(); // by join ,main method wait to let complete that thread e.g. t1.join() t1 complete then further it will go. 
 		System.out.println(obj.count);
 	}
 }

@@ -1,7 +1,7 @@
 package com.java.enumDemo;
 
 enum Laptop{
-	Hp(43000), Lenovo(40000), dell(50000), Apple(90000),ThinPad;
+	Hp(43000), Lenovo(40000), dell(50000), Apple(90000),ThinkPad;
 	
 	private int price;
 

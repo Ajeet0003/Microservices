@@ -36,5 +36,6 @@ public class ThreadDemo {
 		System.out.println(a.getPriority());
 		a.start();
 		b.start();
+		
 	}
 }
